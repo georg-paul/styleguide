@@ -1,2 +1,8 @@
 @import "../styles/_default-config";
 @import "../styles/_include-components";
+
+// Demo styles
+.page {
+	@include rem(max-width, 750);
+	margin: 0 auto;
+}
